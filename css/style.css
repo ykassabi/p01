@@ -7,7 +7,7 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 90%;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, #106090), color-stop(200%, #005b3b));
   background-image: linear-gradient(to top, #106090 100%, #106090 200%);
   display: -webkit-box;
@@ -342,3 +342,32 @@ button {
 }
 /*# sourceMappingURL=style.css.map */
 
+
+#page-container {
+  position: relative;
+  /*min-height: 100vh;*/
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  background-color: #106090;
+  color: aliceblue;
+  line-height: 2.5rem;
+
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1rem;
+}
+a:hover{
+  text-decoration: firebrick;
+  color: firebrick;
+}
